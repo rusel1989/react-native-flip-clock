@@ -17,6 +17,6 @@ DateCountdownFlipView.propTypes = {
   date: React.PropTypes.number.isRequired
 }
 
-const NativeDateCountdownFlipView = requireNativeComponent('RCTDateCountdownFlipView', DateCountdownFlipView)
+const NativeDateCountdownFlipView = requireNativeComponent('DateCountdownFlipView', DateCountdownFlipView)
 
 module.exports = DateCountdownFlipView
