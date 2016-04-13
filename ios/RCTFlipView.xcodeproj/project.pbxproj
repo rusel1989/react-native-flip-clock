@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		694A3F1E1CBE4B2200762ED2 /* JDDateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F101CBE4B2200762ED2 /* JDDateCountdownFlipView.m */; };
+		694A3F1F1CBE4B2200762ED2 /* JDFlipClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F121CBE4B2200762ED2 /* JDFlipClockView.m */; };
+		694A3F201CBE4B2200762ED2 /* JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F141CBE4B2200762ED2 /* JDFlipImageView.m */; };
+		694A3F211CBE4B2200762ED2 /* JDFlipNumberDigitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F161CBE4B2200762ED2 /* JDFlipNumberDigitView.m */; };
+		694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F191CBE4B2200762ED2 /* JDFlipNumberView.m */; };
+		694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */; };
+		694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */; };
+		694A3F2B1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		694A3F011CBE4AB900762ED2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFlipView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		694A3F0F1CBE4B2200762ED2 /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
+		694A3F101CBE4B2200762ED2 /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
+		694A3F111CBE4B2200762ED2 /* JDFlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipClockView.h; sourceTree = "<group>"; };
+		694A3F121CBE4B2200762ED2 /* JDFlipClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipClockView.m; sourceTree = "<group>"; };
+		694A3F131CBE4B2200762ED2 /* JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipImageView.h; sourceTree = "<group>"; };
+		694A3F141CBE4B2200762ED2 /* JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipImageView.m; sourceTree = "<group>"; };
+		694A3F151CBE4B2200762ED2 /* JDFlipNumberDigitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberDigitView.h; sourceTree = "<group>"; };
+		694A3F161CBE4B2200762ED2 /* JDFlipNumberDigitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberDigitView.m; sourceTree = "<group>"; };
+		694A3F171CBE4B2200762ED2 /* JDFlipNumberView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JDFlipNumberView.bundle; sourceTree = "<group>"; };
+		694A3F181CBE4B2200762ED2 /* JDFlipNumberView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberView.h; sourceTree = "<group>"; };
+		694A3F191CBE4B2200762ED2 /* JDFlipNumberView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberView.m; sourceTree = "<group>"; };
+		694A3F1A1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipNumberViewImageFactory.h; sourceTree = "<group>"; };
+		694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
+		694A3F1C1CBE4B2200762ED2 /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
+		694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
+		694A3F291CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDateCountdownFlipViewManager.h; sourceTree = "<group>"; };
+		694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDateCountdownFlipViewManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		694A3F001CBE4AB900762ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		694A3EFA1CBE4AB900762ED2 = {
+			isa = PBXGroup;
+			children = (
+				698685321CBE8D7100E590B0 /* JDFlipNumberView */,
+				694A3F051CBE4AB900762ED2 /* RCTFlipView */,
+				694A3F041CBE4AB900762ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		694A3F041CBE4AB900762ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		694A3F051CBE4AB900762ED2 /* RCTFlipView */ = {
+			isa = PBXGroup;
+			children = (
+				694A3F291CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.h */,
+				694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */,
+			);
+			name = RCTFlipView;
+			path = RCTFlipNumberView;
+			sourceTree = "<group>";
+		};
+		698685321CBE8D7100E590B0 /* JDFlipNumberView */ = {
+			isa = PBXGroup;
+			children = (
+				694A3F0F1CBE4B2200762ED2 /* JDDateCountdownFlipView.h */,
+				694A3F101CBE4B2200762ED2 /* JDDateCountdownFlipView.m */,
+				694A3F111CBE4B2200762ED2 /* JDFlipClockView.h */,
+				694A3F121CBE4B2200762ED2 /* JDFlipClockView.m */,
+				694A3F131CBE4B2200762ED2 /* JDFlipImageView.h */,
+				694A3F141CBE4B2200762ED2 /* JDFlipImageView.m */,
+				694A3F151CBE4B2200762ED2 /* JDFlipNumberDigitView.h */,
+				694A3F161CBE4B2200762ED2 /* JDFlipNumberDigitView.m */,
+				694A3F171CBE4B2200762ED2 /* JDFlipNumberView.bundle */,
+				694A3F181CBE4B2200762ED2 /* JDFlipNumberView.h */,
+				694A3F191CBE4B2200762ED2 /* JDFlipNumberView.m */,
+				694A3F1A1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.h */,
+				694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */,
+				694A3F1C1CBE4B2200762ED2 /* UIView+JDFlipImageView.h */,
+				694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */,
+			);
+			name = JDFlipNumberView;
+			path = RCTFlipNumberView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		694A3F021CBE4AB900762ED2 /* RCTFlipView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipView" */;
+			buildPhases = (
+				694A3EFF1CBE4AB900762ED2 /* Sources */,
+				694A3F001CBE4AB900762ED2 /* Frameworks */,
+				694A3F011CBE4AB900762ED2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RCTFlipView;
+			productName = RCTFlipNumberView;
+			productReference = 694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		694A3EFB1CBE4AB900762ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jakub Martyčák";
+				TargetAttributes = {
+					694A3F021CBE4AB900762ED2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 694A3EFA1CBE4AB900762ED2;
+			productRefGroup = 694A3F041CBE4AB900762ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				694A3F021CBE4AB900762ED2 /* RCTFlipView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		694A3EFF1CBE4AB900762ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				694A3F1F1CBE4B2200762ED2 /* JDFlipClockView.m in Sources */,
+				694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */,
+				694A3F2B1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m in Sources */,
+				694A3F1E1CBE4B2200762ED2 /* JDDateCountdownFlipView.m in Sources */,
+				694A3F211CBE4B2200762ED2 /* JDFlipNumberDigitView.m in Sources */,
+				694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */,
+				694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */,
+				694A3F201CBE4B2200762ED2 /* JDFlipImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		694A3F0A1CBE4AB900762ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		694A3F0B1CBE4AB900762ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		694A3F0D1CBE4AB900762ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTFlipView;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		694A3F0E1CBE4AB900762ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RCTFlipView;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694A3F0A1CBE4AB900762ED2 /* Debug */,
+				694A3F0B1CBE4AB900762ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				694A3F0D1CBE4AB900762ED2 /* Debug */,
+				694A3F0E1CBE4AB900762ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 694A3EFB1CBE4AB900762ED2 /* Project object */;
+}

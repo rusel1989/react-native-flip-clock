@@ -1,0 +1,24 @@
+{
+  "name": "react-native-flip-view",
+  "version": "0.0.1",
+  "description": "React Native Flip View",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rusel1989/react-native-flip-view.git"
+  },
+  "keywords": [
+    "react-native",
+    "ios",
+    "react-component"
+  ],
+  "author": "Jakub Martyčák <martycakjakub@gmail.com> (https://github.com/rusel1989)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rusel1989/react-native-flip-view/issues"
+  },
+  "homepage": "https://github.com/rusel1989/react-native-flip-view"
+}
