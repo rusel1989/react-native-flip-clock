@@ -1,5 +1,22 @@
-import { requireNativeComponent } from 'react-native'
+import React, { Component, requireNativeComponent } from 'react-native'
 
-const DateCountdownFlipView = requireNativeComponent('RCTDateCountdownFlipView', null)
+class DateCountdownFlipView extends Component {
+  render () {
+    return (
+      <NativeDateCountdownFlipView
+        {...this.props}
+        style={[{ flex: 1 }, this.props.style]}
+      />
+    )
+  }
+}
 
-export default DateCountdownFlipView
+DateCountdownFlipView.propTypes = {
+  dayDigitCount: React.PropTypes.number.isRequired,
+  bundleName: React.PropTypes.string,
+  date: React.PropTypes.number.isRequired
+}
+
+const NativeDateCountdownFlipView = requireNativeComponent('RCTDateCountdownFlipView', DateCountdownFlipView)
+
+module.exports = DateCountdownFlipView

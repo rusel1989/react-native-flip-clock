@@ -14,7 +14,8 @@
 		694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F191CBE4B2200762ED2 /* JDFlipNumberView.m */; };
 		694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */; };
 		694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */; };
-		694A3F2B1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */; };
+		698685761CBECD2D00E590B0 /* DateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */; };
+		698685771CBECD2D00E590B0 /* DateCountdownFlipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,8 +47,10 @@
 		694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
 		694A3F1C1CBE4B2200762ED2 /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
 		694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
-		694A3F291CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTDateCountdownFlipViewManager.h; sourceTree = "<group>"; };
-		694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCTDateCountdownFlipViewManager.m; sourceTree = "<group>"; };
+		698685721CBECD2D00E590B0 /* DateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCountdownFlipView.h; sourceTree = "<group>"; };
+		698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCountdownFlipView.m; sourceTree = "<group>"; };
+		698685741CBECD2D00E590B0 /* DateCountdownFlipViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCountdownFlipViewManager.h; sourceTree = "<group>"; };
+		698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCountdownFlipViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,8 +84,10 @@
 		694A3F051CBE4AB900762ED2 /* RCTFlipView */ = {
 			isa = PBXGroup;
 			children = (
-				694A3F291CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.h */,
-				694A3F2A1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m */,
+				698685721CBECD2D00E590B0 /* DateCountdownFlipView.h */,
+				698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */,
+				698685741CBECD2D00E590B0 /* DateCountdownFlipViewManager.h */,
+				698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */,
 			);
 			name = RCTFlipView;
 			path = RCTFlipNumberView;
@@ -169,12 +174,13 @@
 			files = (
 				694A3F1F1CBE4B2200762ED2 /* JDFlipClockView.m in Sources */,
 				694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */,
-				694A3F2B1CBE4FCE00762ED2 /* RCTDateCountdownFlipViewManager.m in Sources */,
 				694A3F1E1CBE4B2200762ED2 /* JDDateCountdownFlipView.m in Sources */,
 				694A3F211CBE4B2200762ED2 /* JDFlipNumberDigitView.m in Sources */,
 				694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */,
 				694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */,
 				694A3F201CBE4B2200762ED2 /* JDFlipImageView.m in Sources */,
+				698685761CBECD2D00E590B0 /* DateCountdownFlipView.m in Sources */,
+				698685771CBECD2D00E590B0 /* DateCountdownFlipViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
