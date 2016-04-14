@@ -1,4 +1,4 @@
-const FlipClockView = require('./src/FlipClock')
+const FlipClockView = require('./src/FlipClockView')
 const DateCounterView = require('./src/DateCounterView')
 
 module.exports = {
