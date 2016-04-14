@@ -111,7 +111,6 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
 - (void)setMode:(NSString *)mode;
 {
     _mode = mode;
-    [self updateValuesAnimated:NO];
 }
 
 #pragma mark layout
