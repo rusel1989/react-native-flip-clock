@@ -108,6 +108,12 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
     [self updateValuesAnimated:NO];
 }
 
+- (void)setMode:(NSString *)mode;
+{
+    _mode = mode;
+    [self updateValuesAnimated:NO];
+}
+
 #pragma mark layout
 
 - (CGSize)sizeThatFits:(CGSize)size;
@@ -216,11 +222,22 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
         [self.minuteFlipNumberView setValue:[dateComponents minute] animated:animated];
         [self.secondFlipNumberView setValue:[dateComponents second] animated:animated];
     } else {
-        [self.dayFlipNumberView setValue:0 animated:animated];
-        [self.hourFlipNumberView setValue:0 animated:animated];
-        [self.minuteFlipNumberView setValue:0 animated:animated];
-        [self.secondFlipNumberView setValue:0 animated:animated];
-        [self stop];
+        if ([self.mode  isEqual: @"countup"]) {
+            NSUInteger flags = NSCalendarUnitDay | NSCalendarUnitHour | NSCalendarUnitMinute | NSCalendarUnitSecond;
+            NSDateComponents* dateComponents = [[NSCalendar currentCalendar] components:flags fromDate:self.targetDate toDate:[NSDate date] options:0];
+            
+            [self.dayFlipNumberView setValue:[dateComponents day] animated:animated];
+            [self.hourFlipNumberView setValue:[dateComponents hour] animated:animated];
+            [self.minuteFlipNumberView setValue:[dateComponents minute] animated:animated];
+            [self.secondFlipNumberView setValue:[dateComponents second] animated:animated];
+        } else {
+            [self.dayFlipNumberView setValue:0 animated:animated];
+            [self.hourFlipNumberView setValue:0 animated:animated];
+            [self.minuteFlipNumberView setValue:0 animated:animated];
+            [self.secondFlipNumberView setValue:0 animated:animated];
+            [self stop];
+        }
+
     }
 }
 

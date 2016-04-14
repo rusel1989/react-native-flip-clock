@@ -10,6 +10,7 @@
 
 @property (nonatomic, strong) NSDate *targetDate;
 @property (nonatomic, assign) NSUInteger zDistance;
+@property (nonatomic, copy) NSString *mode;
 
 - (id)initWithDayDigitCount:(NSInteger)dayDigits;
 - (id)initWithDayDigitCount:(NSInteger)dayDigits

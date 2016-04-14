@@ -1,7 +1,7 @@
 #import "JDDateCountdownFlipView.h"
-#import "DateCountdownFlipView.h"
+#import "DateCounterView.h"
 
-@implementation DateCountdownFlipView {
+@implementation DateCounterView {
     JDDateCountdownFlipView *_flipView;
 }
 
@@ -10,6 +10,7 @@
     [super layoutSubviews];
     _flipView= [[JDDateCountdownFlipView alloc] initWithDayDigitCount:_dayDigitCount
                                                       imageBundleName:_bundleName];
+    _flipView.mode = _mode;
     _flipView.targetDate = _date;
     _flipView.frame = self.bounds;
     [self insertSubview:_flipView atIndex:0];

@@ -14,8 +14,10 @@
 		694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F191CBE4B2200762ED2 /* JDFlipNumberView.m */; };
 		694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */; };
 		694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */; };
-		698685761CBECD2D00E590B0 /* DateCountdownFlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */; };
-		698685771CBECD2D00E590B0 /* DateCountdownFlipViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */; };
+		6957B5EC1CBFA4B700C28AED /* FlipClockViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957B5EB1CBFA4B700C28AED /* FlipClockViewManager.m */; };
+		6957B5EF1CBFA4E700C28AED /* FlipClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6957B5EE1CBFA4E700C28AED /* FlipClockView.m */; };
+		698685761CBECD2D00E590B0 /* DateCounterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685731CBECD2D00E590B0 /* DateCounterView.m */; };
+		698685771CBECD2D00E590B0 /* DateCounterViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 698685751CBECD2D00E590B0 /* DateCounterViewManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,7 +33,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFlipView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		694A3F031CBE4AB900762ED2 /* libRCTFlipClock.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRCTFlipClock.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		694A3F0F1CBE4B2200762ED2 /* JDDateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDDateCountdownFlipView.h; sourceTree = "<group>"; };
 		694A3F101CBE4B2200762ED2 /* JDDateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDDateCountdownFlipView.m; sourceTree = "<group>"; };
 		694A3F111CBE4B2200762ED2 /* JDFlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JDFlipClockView.h; sourceTree = "<group>"; };
@@ -47,10 +49,14 @@
 		694A3F1B1CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JDFlipNumberViewImageFactory.m; sourceTree = "<group>"; };
 		694A3F1C1CBE4B2200762ED2 /* UIView+JDFlipImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JDFlipImageView.h"; sourceTree = "<group>"; };
 		694A3F1D1CBE4B2200762ED2 /* UIView+JDFlipImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JDFlipImageView.m"; sourceTree = "<group>"; };
-		698685721CBECD2D00E590B0 /* DateCountdownFlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCountdownFlipView.h; sourceTree = "<group>"; };
-		698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCountdownFlipView.m; sourceTree = "<group>"; };
-		698685741CBECD2D00E590B0 /* DateCountdownFlipViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCountdownFlipViewManager.h; sourceTree = "<group>"; };
-		698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCountdownFlipViewManager.m; sourceTree = "<group>"; };
+		6957B5EA1CBFA4B700C28AED /* FlipClockViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockViewManager.h; sourceTree = "<group>"; };
+		6957B5EB1CBFA4B700C28AED /* FlipClockViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockViewManager.m; sourceTree = "<group>"; };
+		6957B5ED1CBFA4E700C28AED /* FlipClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipClockView.h; sourceTree = "<group>"; };
+		6957B5EE1CBFA4E700C28AED /* FlipClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipClockView.m; sourceTree = "<group>"; };
+		698685721CBECD2D00E590B0 /* DateCounterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCounterView.h; sourceTree = "<group>"; };
+		698685731CBECD2D00E590B0 /* DateCounterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCounterView.m; sourceTree = "<group>"; };
+		698685741CBECD2D00E590B0 /* DateCounterViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateCounterViewManager.h; sourceTree = "<group>"; };
+		698685751CBECD2D00E590B0 /* DateCounterViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateCounterViewManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				698685321CBE8D7100E590B0 /* JDFlipNumberView */,
-				694A3F051CBE4AB900762ED2 /* RCTFlipView */,
+				694A3F051CBE4AB900762ED2 /* RCTFlipClock */,
 				694A3F041CBE4AB900762ED2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,20 +82,24 @@
 		694A3F041CBE4AB900762ED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */,
+				694A3F031CBE4AB900762ED2 /* libRCTFlipClock.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		694A3F051CBE4AB900762ED2 /* RCTFlipView */ = {
+		694A3F051CBE4AB900762ED2 /* RCTFlipClock */ = {
 			isa = PBXGroup;
 			children = (
-				698685721CBECD2D00E590B0 /* DateCountdownFlipView.h */,
-				698685731CBECD2D00E590B0 /* DateCountdownFlipView.m */,
-				698685741CBECD2D00E590B0 /* DateCountdownFlipViewManager.h */,
-				698685751CBECD2D00E590B0 /* DateCountdownFlipViewManager.m */,
+				698685721CBECD2D00E590B0 /* DateCounterView.h */,
+				698685731CBECD2D00E590B0 /* DateCounterView.m */,
+				698685741CBECD2D00E590B0 /* DateCounterViewManager.h */,
+				698685751CBECD2D00E590B0 /* DateCounterViewManager.m */,
+				6957B5EA1CBFA4B700C28AED /* FlipClockViewManager.h */,
+				6957B5EB1CBFA4B700C28AED /* FlipClockViewManager.m */,
+				6957B5ED1CBFA4E700C28AED /* FlipClockView.h */,
+				6957B5EE1CBFA4E700C28AED /* FlipClockView.m */,
 			);
-			name = RCTFlipView;
+			name = RCTFlipClock;
 			path = RCTFlipNumberView;
 			sourceTree = "<group>";
 		};
@@ -119,9 +129,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		694A3F021CBE4AB900762ED2 /* RCTFlipView */ = {
+		694A3F021CBE4AB900762ED2 /* RCTFlipClock */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipView" */;
+			buildConfigurationList = 694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipClock" */;
 			buildPhases = (
 				694A3EFF1CBE4AB900762ED2 /* Sources */,
 				694A3F001CBE4AB900762ED2 /* Frameworks */,
@@ -131,9 +141,9 @@
 			);
 			dependencies = (
 			);
-			name = RCTFlipView;
+			name = RCTFlipClock;
 			productName = RCTFlipNumberView;
-			productReference = 694A3F031CBE4AB900762ED2 /* libRCTFlipView.a */;
+			productReference = 694A3F031CBE4AB900762ED2 /* libRCTFlipClock.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -150,7 +160,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipView" */;
+			buildConfigurationList = 694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipClock" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -162,7 +172,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				694A3F021CBE4AB900762ED2 /* RCTFlipView */,
+				694A3F021CBE4AB900762ED2 /* RCTFlipClock */,
 			);
 		};
 /* End PBXProject section */
@@ -172,15 +182,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6957B5EC1CBFA4B700C28AED /* FlipClockViewManager.m in Sources */,
 				694A3F1F1CBE4B2200762ED2 /* JDFlipClockView.m in Sources */,
 				694A3F231CBE4B2200762ED2 /* JDFlipNumberViewImageFactory.m in Sources */,
 				694A3F1E1CBE4B2200762ED2 /* JDDateCountdownFlipView.m in Sources */,
 				694A3F211CBE4B2200762ED2 /* JDFlipNumberDigitView.m in Sources */,
+				6957B5EF1CBFA4E700C28AED /* FlipClockView.m in Sources */,
 				694A3F221CBE4B2200762ED2 /* JDFlipNumberView.m in Sources */,
 				694A3F241CBE4B2200762ED2 /* UIView+JDFlipImageView.m in Sources */,
 				694A3F201CBE4B2200762ED2 /* JDFlipImageView.m in Sources */,
-				698685761CBECD2D00E590B0 /* DateCountdownFlipView.m in Sources */,
-				698685771CBECD2D00E590B0 /* DateCountdownFlipViewManager.m in Sources */,
+				698685761CBECD2D00E590B0 /* DateCounterView.m in Sources */,
+				698685771CBECD2D00E590B0 /* DateCounterViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,7 +286,7 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RCTFlipView;
+				PRODUCT_NAME = RCTFlipClock;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -284,7 +296,7 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/../../react-native/React/**";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_NAME = RCTFlipView;
+				PRODUCT_NAME = RCTFlipClock;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -292,7 +304,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipView" */ = {
+		694A3EFE1CBE4AB900762ED2 /* Build configuration list for PBXProject "RCTFlipClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				694A3F0A1CBE4AB900762ED2 /* Debug */,
@@ -301,7 +313,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipView" */ = {
+		694A3F0C1CBE4AB900762ED2 /* Build configuration list for PBXNativeTarget "RCTFlipClock" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				694A3F0D1CBE4AB900762ED2 /* Debug */,
