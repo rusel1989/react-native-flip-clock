@@ -74,7 +74,7 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
         
         // set inital frame
         CGRect frame = self.hourFlipNumberView.frame;
-        self.frame = CGRectMake(0, 0, frame.size.width*(dayDigits+7), frame.size.height);
+        self.frame = CGRectMake(0, 0, frame.size.width*(dayDigits+6), frame.size.height);
         
         // add subviews
         for (JDFlipNumberView* view in @[self.dayFlipNumberView, self.hourFlipNumberView, self.minuteFlipNumberView, self.secondFlipNumberView]) {
@@ -116,7 +116,7 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
         return [super sizeThatFits:size];
     }
     
-    CGFloat digitWidth = size.width/(self.dayFlipNumberView.digitCount+7);
+    CGFloat digitWidth = size.width/(self.dayFlipNumberView.digitCount+6);
     CGFloat margin     = digitWidth/4.0;
     CGFloat currentX   = 0;
     
@@ -128,7 +128,9 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
     // check other numbers
     CGSize nextSize;
     for (JDFlipNumberView* view in @[self.hourFlipNumberView, self.minuteFlipNumberView, self.secondFlipNumberView]) {
-        currentX += margin;
+        if (currentX != 0) {
+            currentX += margin;
+        }
         nextSize = CGSizeMake(digitWidth*2, size.height);
         nextSize = [view sizeThatFits:nextSize];
         currentX += nextSize.width;
@@ -150,7 +152,7 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
     }
     
     CGSize size = [self sizeThatFits:self.bounds.size];
-    CGFloat digitWidth = size.width/(self.dayFlipNumberView.digitCount+7);
+    CGFloat digitWidth = size.width/(self.dayFlipNumberView.digitCount+6);
     CGFloat margin     = digitWidth/4.0;
     CGFloat currentX = round((self.bounds.size.width - size.width)/2.0);
     
@@ -160,7 +162,9 @@ static CGFloat kFlipAnimationUpdateInterval = 0.5; // = 2 times per second
     
     // update flipview frames
     for (JDFlipNumberView* view in @[self.hourFlipNumberView, self.minuteFlipNumberView, self.secondFlipNumberView]) {
-        currentX   += margin;
+        if (currentX != 0) {
+            currentX += margin;
+        }
         view.frame = CGRectMake(currentX, 0, digitWidth*2, size.height);
         currentX   += view.frame.size.width;
     }
