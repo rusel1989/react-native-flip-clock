@@ -11,7 +11,7 @@ class FlipClockView extends Component {
 }
 
 FlipClockView.propTypes = {
-  showSeconds: React.propTypes.bool,
+  showSeconds: React.PropTypes.bool,
   bundleName: React.PropTypes.string
 }
 

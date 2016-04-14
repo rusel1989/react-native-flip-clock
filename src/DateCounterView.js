@@ -12,8 +12,8 @@ class DateCounterView extends Component {
 
 DateCounterView.propTypes = {
   dayDigitCount: React.PropTypes.number.isRequired,
-  mode: React.PropTypes.string.isRequired,
-  date: React.PropTypes.oneOf('countup', 'countdown').isRequired,
+  mode: React.PropTypes.oneOf(['countup', 'countdown']).isRequired,
+  date: React.PropTypes.number.isRequired,
   bundleName: React.PropTypes.string
 }
 
