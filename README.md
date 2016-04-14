@@ -1,12 +1,12 @@
-## React Native Flip View
+## React Native Flip Clock
 
 Component implementation for [JDFlipNumberView](https://github.com/jaydee3/JDFlipNumberView), it is in
-very beginning definately not production rady :-)
+very beginning definately not production ready :-)
 
 ## Installation
 1. Install package via npm:
   ```
-  npm i -S react-native-flip 
+  npm i -S react-native-flip-clock
   ```
 2. Link your library by one of those ways: either by using `rnpm link` (see more about rnpm [here](https://github.com/rnpm/rnpm)) or like it's [described here](http://facebook.github.io/react-native/docs/linking-libraries-ios.html).
 
@@ -20,9 +20,9 @@ property on component to bundle name
 ## DateCountdownFlipView
 Countdown to given date...
 ```
-const { DateCountdownFlipView } = require('react-native-flip');
+const { DateCountdownFlipView } = require('react-native-flip-clock');
 
-<DateCoundownFlipView
+<DateCountdownFlipView
   dayDigitCount={1}
   date={Date.now() + (24 * 60 * 60 * 1000)}
   bundleName={'MyBundleName'}/>

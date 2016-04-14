@@ -1,14 +1,14 @@
 {
-  "name": "react-native-flip",
+  "name": "react-native-flip-clock",
   "version": "0.1.1",
-  "description": "React Native Flip View",
+  "description": "React Native Flip Clock",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:rusel1989/react-native-flip-view.git"
+    "url": "git@github.com:rusel1989/react-native-flip-clock.git"
   },
   "keywords": [
     "react-native",
@@ -18,7 +18,7 @@
   "author": "Jakub Martyčák <martycakjakub@gmail.com> (https://github.com/rusel1989)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/rusel1989/react-native-flip-view/issues"
+    "url": "https://github.com/rusel1989/react-native-flip-clock/issues"
   },
-  "homepage": "https://github.com/rusel1989/react-native-flip-view"
+  "homepage": "https://github.com/rusel1989/react-native-flip-clock"
 }
