@@ -17,7 +17,7 @@ In design directory you can find .psd file just edit it to your liking and creat
 digits from 0 - 9, then create .bundle file and drag it over to copy bundle resources. Then set `bundleName`
 property on component to bundle name
 
-## <DateCountdownFlipView/>
+## DateCountdownFlipView
 Countdown to given date...
 ```
 const { DateCountdownFlipView } = require('react-native-flip');
@@ -27,4 +27,4 @@ const { DateCountdownFlipView } = require('react-native-flip');
   date={Date.now() + (24 * 60 * 60 * 1000)}
   bundleName={'MyBundleName'}/>
 ```
-
+![DateCountdownFlipView](https://i.giphy.com/26AHQMC29exDY1R0k.gif)
