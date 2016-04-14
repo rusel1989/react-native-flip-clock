@@ -41,4 +41,4 @@ const { DateCounterView } = require('react-native-flip-clock');
   mode='countdown'
   bundleName='BundleName' />
 ```
-![DateCounterView](https://i.giphy.com/26AHQMC29exDY1R0k.gif)
+![DateCounterView](https://i.giphy.com/l3V0D4WT3rSaIHUB2.gif)
