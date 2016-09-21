@@ -1,4 +1,5 @@
-import React, { Component, requireNativeComponent } from 'react-native'
+import React, { Component } from 'react'
+import { requireNativeComponent } from 'react-native'
 
 class FlipClockView extends Component {
   render () {
