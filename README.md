@@ -3,6 +3,8 @@
 Component implementation for [JDFlipNumberView](https://github.com/jaydee3/JDFlipNumberView), it is in
 very beginning definately not production ready :-)
 
+For react-native < 0.25.1 use version 0.3.x for recent versions use version 1.0.x
+
 ## Installation
 1. Install package via npm:
   ```
