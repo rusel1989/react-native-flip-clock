@@ -13,7 +13,8 @@
   "keywords": [
     "react-native",
     "ios",
-    "react-component"
+    "react-component",
+    "flipclock"
   ],
   "author": "Jakub Martyčák <martycakjakub@gmail.com> (https://github.com/rusel1989)",
   "license": "MIT",
