@@ -21,4 +21,6 @@
 
 - (void)updateValuesAnimated:(BOOL)animated;
 
+- (void)setTargetDate:(NSDate *)targetDate;
+
 @end

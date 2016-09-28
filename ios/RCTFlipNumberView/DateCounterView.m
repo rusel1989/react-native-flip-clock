@@ -16,4 +16,12 @@
     [self insertSubview:_flipView atIndex:0];
 }
 
+- (void)setDate:(NSDate *)date
+{
+    _date = [date copy];
+    [_flipView stop];
+    [_flipView setTargetDate:_date];
+    [_flipView start];
+}
+
 @end
