@@ -1,6 +1,6 @@
 {
   "name": "react-native-flip-clock",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React Native Flip Clock",
   "main": "index.js",
   "scripts": {
